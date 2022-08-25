@@ -22,4 +22,4 @@ double numberX = -thirdNumber + firstNumber;
 double cordinatesX = numberX / tempX;
 
 double cordinatesY = fourthNumber * cordinatesX + thirdNumber;
-Console.WriteLine($"Точкой пересечения прямых являются кординаты х = {cordinatesX} y = {cordinatesY}");
+Console.WriteLine($"Точкой пересечения прямых являются кординаты х = {Math.Round(cordinatesX,2)} у = {Math.Round(cordinatesY,2)}");
